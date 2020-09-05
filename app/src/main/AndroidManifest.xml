@@ -8,12 +8,28 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ColorsActivity"></activity>
-        <activity android:name=".FamilyActivity" />
-        <activity android:name=".PhrasesActivity" />
-        <activity android:name=".NumbersActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".ColorsActivity"
+            android:label="@string/colors_name">
+        </activity>
+
+        <activity
+            android:name=".FamilyActivity"
+            android:label="@string/family_name"/>
+        <activity
+
+            android:name=".PhrasesActivity"
+            android:label="@string/phrases_name"/>
+
+        <activity
+            android:name=".NumbersActivity"
+            android:label="@string/numbers_name"/>
+
+        <activity
+            android:name=".MainActivity">
+
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
