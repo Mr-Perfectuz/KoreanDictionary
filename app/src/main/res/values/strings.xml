@@ -1,18 +1,7 @@
+
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">KoreanDictionary</string>
-
-    <!-- Title for the Colors Activity-->
-    <string name="colors_name">Colors</string>
-
-    <!-- Title for the Family Activity-->
-    <string name="family_name">Family Members</string>
-
-    <!-- Title for the Numbers Activity-->
-    <string name="numbers_name">Numbers</string>
-
-    <!-- Title for the Phrases Activity-->
-    <string name="phrases_name">Phrases</string>
+    <string name="app_name">Koran Dictionary</string>
 
     <!-- Category name for phrases [CHAR LIMIT=20] -->
     <string name="category_phrases">Phrases</string>
