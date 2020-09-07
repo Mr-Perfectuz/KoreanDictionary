@@ -20,21 +20,42 @@ public class NumbersActivity extends AppCompatActivity {
         // Create an array of words
         ArrayList<String> words = new ArrayList<String>(10);
 
-        words.add(0, "one");
-        words.add(1 ,"two");
-        words.add(2 ,"three");
-        words.add(3 ,"four");
-        words.add(4 ,"five");
-        words.add(5 ,"six");
-        words.add(6 ,"seven");
-        words.add(7 ,"eight");
-        words.add(8 ,"nine");
-        words.add(9 ,"ten");
+        words.add(0, "One");
+        words.add(1 ,"Two");
+        words.add(2 ,"Three");
+        words.add(3 ,"Four");
+        words.add(4 ,"Five");
+        words.add(5 ,"Six");
+        words.add(6 ,"Seven");
+        words.add(7 ,"Eight");
+        words.add(8 ,"Nine");
+        words.add(9 ,"Ten");
 
+
+        // Find the root view so we can add child views to it
         LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
+
+        // Create a variable to keep track of the current index position
+
+        // Keep looping until we've reached the end of the list (which means keep looping
+        // as long as the current index position is less than the length of the list)
+        int index = 0;
+
+        while (index <words.size()) {
+            // Create a new TextView
             TextView wordView =new TextView(this);
-            wordView.setText(words.get(1));
+
+            // Set the text to be word at the current index
+            wordView.setText(words.get(index));
+
+            // Add this TextView as another child to the root view of this layout
+
+            // Increment the index variable by 1
             rootView.addView(wordView);
+            index++;
+        }
+
+
 
 
 
