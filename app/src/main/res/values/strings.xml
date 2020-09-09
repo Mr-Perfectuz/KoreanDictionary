@@ -14,4 +14,7 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
+
+    <!-- Category name for the vocabulary words for Alphabet [CHAR LIMIT=20] -->
+    <string name="category_alphabet">Alphabet</string>
 </resources>

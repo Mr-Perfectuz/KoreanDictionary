@@ -21,4 +21,7 @@ zsz
 
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#16AFCA</color>
+
+    <!-- Background color for the Alphabet category -->
+    <color name="category_alphabet">#D8D8D8	</color>
 </resources>

@@ -33,4 +33,10 @@
         android:background="@color/category_phrases"
         android:text="@string/category_phrases" />
 
+    <TextView
+        android:id="@+id/alpabet"
+        style="@style/CategoryStyle"
+        android:background="@color/category_alphabet"
+        android:text="@string/category_alphabet" />
+
 </LinearLayout>

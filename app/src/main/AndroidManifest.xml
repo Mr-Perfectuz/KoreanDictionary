@@ -43,6 +43,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
         </activity>
+
+        <activity
+            android:name=".AlphabetActivity"
+            android:label="@string/category_alphabet"
+            android:parentActivityName=".MainActivity">
+            <!-- Alphabet activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
         <activity
             android:name=".PhrasesActivity"
             android:label="@string/category_phrases"
